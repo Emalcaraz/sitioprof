@@ -1,0 +1,117 @@
+body {
+    background-image:url(fondo.jpeg);
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+header {
+    background-color: #F9EBEA;
+    border-radius: 10px;
+    border: 0px;
+    border-color:brown ;
+    padding: 20px;
+    text-align:center;
+    position: sticky;
+
+
+
+    width: 100%;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: #F9EBEA;
+    padding: 0;
+    text-align: center;
+    position:relative ;
+    bottom: 0;
+    left: 0;
+    width:100%;
+
+
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+.boton {
+    background-color: #D2B48C; 
+    color: #000; 
+    border: 2px solid #000; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-style: italic;
+}
+
+
+.boton:hover {
+    background-color: #8B4513; 
+    color: #FFF; 
+}
+.foto1{
+    flex: 1;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.foto2{
+    flex: 2;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.ig {
+    width: 50px;
+    height: 50px;
+}
+.tik{
+    width: 100px;
+    height: 50px;
+}
+.maps{
+    width: 50px;
+    height: 50px;
+
+}
+.Sorrento{
+    left: 200px;
+    position: static;
+    width: 300px;
+    height: 300px;
+}
+.text{
+    color: black;
+    background-color: wheat;
+
+    background-size: cover;
+}
